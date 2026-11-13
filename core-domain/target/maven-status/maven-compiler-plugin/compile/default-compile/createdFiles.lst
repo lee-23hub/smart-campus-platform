@@ -4,7 +4,10 @@ com\scasp\core\services\CourseService.class
 com\scasp\core\services\StudentService.class
 com\scasp\core\collections\AcademicRequestCollection.class
 com\scasp\core\CoreDomain.class
+com\scasp\core\repositories\AnnouncementRepository.class
+com\scasp\core\repositories\CourseRepository.class
 com\scasp\core\AcademicRequest.class
+com\scasp\core\repositories\AcademicRequestRepository.class
 com\scasp\core\Administrator.class
 com\scasp\core\Student.class
 com\scasp\core\services\AcademicRequestService.class
@@ -14,4 +17,6 @@ com\scasp\core\collections\RegistrationCollection.class
 com\scasp\core\collections\StudentCollection.class
 com\scasp\core\Course.class
 com\scasp\core\collections\AnnouncementCollection.class
+com\scasp\core\repositories\RegistrationRepository.class
 com\scasp\core\services\AnnouncementService.class
+com\scasp\core\repositories\StudentRepository.class

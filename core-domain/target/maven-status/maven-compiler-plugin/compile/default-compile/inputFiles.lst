@@ -9,6 +9,11 @@ C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\
 C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\CoreDomain.java
 C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\Course.java
 C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\Registration.java
+C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\repositories\AcademicRequestRepository.java
+C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\repositories\AnnouncementRepository.java
+C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\repositories\CourseRepository.java
+C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\repositories\RegistrationRepository.java
+C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\repositories\StudentRepository.java
 C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\services\AcademicRequestService.java
 C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\services\AnnouncementService.java
 C:\Users\leahn\Documents\GitHub\smart-campus-platform\core-domain\src\main\java\com\scasp\core\services\CourseService.java
