@@ -1,0 +1,7 @@
+com\scasp\core\AcademicRequest.class
+com\scasp\core\Administrator.class
+com\scasp\core\Student.class
+com\scasp\core\Announcement.class
+com\scasp\core\Registration.class
+com\scasp\core\Course.class
+com\scasp\core\CoreDomain.class
