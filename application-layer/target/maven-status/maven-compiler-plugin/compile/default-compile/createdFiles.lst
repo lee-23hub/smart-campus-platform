@@ -1,0 +1,9 @@
+com\scasp\application\controllers\RegistrationController.class
+com\scasp\application\layer\ApplicationLayer.class
+com\scasp\application\controllers\CourseController.class
+com\scasp\application\controllers\AcademicRequestController.class
+com\scasp\application\integration\ApplicationIntegration.class
+com\scasp\application\SmartCampusApplication.class
+com\scasp\application\controllers\AnnouncementController.class
+com\scasp\application\controllers\StudentController.class
+com\scasp\application\testing\ApplicationLayerTest.class
