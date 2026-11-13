@@ -2,10 +2,12 @@ com\scasp\core\collections\CourseCollection.class
 com\scasp\core\services\RegistrationService.class
 com\scasp\core\services\CourseService.class
 com\scasp\core\services\StudentService.class
+com\scasp\core\integration\CoreDomainIntegration.class
 com\scasp\core\collections\AcademicRequestCollection.class
 com\scasp\core\CoreDomain.class
 com\scasp\core\repositories\AnnouncementRepository.class
 com\scasp\core\repositories\CourseRepository.class
+com\scasp\core\testing\CoreDomainTest.class
 com\scasp\core\AcademicRequest.class
 com\scasp\core\repositories\AcademicRequestRepository.class
 com\scasp\core\Administrator.class
