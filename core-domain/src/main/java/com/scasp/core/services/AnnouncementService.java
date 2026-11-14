@@ -1,11 +1,12 @@
 
 package com.scasp.core.services;
 
+import com.scasp.core.interfaces.AnnouncementServiceInterface;
 import com.scasp.core.Announcement;
 import com.scasp.core.collections.AnnouncementCollection;
 import java.util.List;
 
-public class AnnouncementService {
+public class AnnouncementService implements AnnouncementServiceInterface {
 
     private final AnnouncementCollection announcementCollection;
 

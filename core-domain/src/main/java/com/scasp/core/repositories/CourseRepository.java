@@ -1,11 +1,12 @@
 
 package com.scasp.core.repositories;
 
+import com.scasp.core.interfaces.CourseRepositoryInterface;
 import com.scasp.core.Course;
 import com.scasp.core.collections.CourseCollection;
 import java.util.List;
 
-public class CourseRepository {
+public class CourseRepository implements CourseRepositoryInterface {
 
     private final CourseCollection courseCollection;
 

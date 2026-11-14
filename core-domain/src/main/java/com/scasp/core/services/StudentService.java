@@ -1,12 +1,12 @@
 
 package com.scasp.core.services;
 
+import com.scasp.core.interfaces.StudentServiceInterface;
 import com.scasp.core.Student;
 import com.scasp.core.collections.StudentCollection;
 import java.util.List;
 
-public class StudentService {
-
+public class StudentService implements StudentServiceInterface {
     private final StudentCollection studentCollection;
 
     public StudentService(StudentCollection studentCollection) {

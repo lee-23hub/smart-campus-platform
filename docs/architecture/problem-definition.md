@@ -1,4 +1,3 @@
-
 # SMART CAMPUS ACADEMIC SERVICES PLATFORM (SCASP)
 
 ## 1. Problem Definition
@@ -11,7 +10,9 @@ The Smart Campus Academic Services Platform (SCASP) is proposed as an integrated
 
 ### 1.2 Problem Statement
 
-The institution requires a centralised platform that enables students to access academic services efficiently while allowing administrative staff to manage academic activities effectively. The absence of an integrated system can make course registration, waiting-list management, academic request processing and communication difficult to coordinate.
+The institution requires a centralised platform that enables students to access academic services efficiently while allowing administrative staff to manage academic activities effectively.
+
+The absence of an integrated system can make course registration, waiting-list management, academic request processing and communication difficult to coordinate. It can also result in delays, duplicated records and difficulties retrieving accurate academic information.
 
 SCASP aims to address these challenges by providing a unified platform that supports academic service delivery through desktop, web and mobile technologies.
 
@@ -29,6 +30,8 @@ The proposed Smart Campus Academic Services Platform will provide a centralised 
 
 Administrative staff will be able to manage courses, process student requests, monitor registration capacity, publish announcements and generate reports.
 
+System administrators will manage user accounts, access permissions and overall platform operations.
+
 ### 1.4 Intended Users
 
 The platform will serve the following users:
@@ -41,4 +44,4 @@ The platform will serve the following users:
 
 The main objective of SCASP is to design, develop and test an integrated Java-based academic services platform that improves accessibility, efficiency, communication and management of academic services within a higher education institution.
 
-The system will progressively incorporate Java Collections, multithreading, networking, enterprise services, JDBC, web technologies, remote method invocation and Android application development.
+The system will progressively incorporate Java Collections, multithreading, networking, enterprise services, JDBC, web technologies, Remote Method Invocation (RMI) and Android application development.

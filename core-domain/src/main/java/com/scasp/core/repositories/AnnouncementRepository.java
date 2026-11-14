@@ -1,11 +1,12 @@
 
 package com.scasp.core.repositories;
 
+import com.scasp.core.interfaces.AnnouncementRepositoryInterface;
 import com.scasp.core.Announcement;
 import com.scasp.core.collections.AnnouncementCollection;
 import java.util.List;
 
-public class AnnouncementRepository {
+public class AnnouncementRepository implements AnnouncementRepositoryInterface {
 
     private final AnnouncementCollection announcementCollection;
 

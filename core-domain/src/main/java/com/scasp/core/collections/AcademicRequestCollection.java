@@ -1,4 +1,3 @@
-
 package com.scasp.core.collections;
 
 import com.scasp.core.AcademicRequest;
@@ -10,27 +9,27 @@ public class AcademicRequestCollection {
     private final List<AcademicRequest> requests = new ArrayList<>();
 
     // Add an academic request
-    public void addRequest(AcademicRequest request) {
+    public synchronized void addRequest(AcademicRequest request) {
         requests.add(request);
     }
 
     // Remove an academic request
-    public void removeRequest(AcademicRequest request) {
+    public synchronized void removeRequest(AcademicRequest request) {
         requests.remove(request);
     }
 
     // Get all academic requests
-    public List<AcademicRequest> getRequests() {
+    public synchronized List<AcademicRequest> getRequests() {
         return new ArrayList<>(requests);
     }
 
     // Get total number of requests
-    public int getRequestCount() {
+    public synchronized int getRequestCount() {
         return requests.size();
     }
 
     // Check if collection is empty
-    public boolean isEmpty() {
+    public synchronized boolean isEmpty() {
         return requests.isEmpty();
     }
 }

@@ -1,11 +1,12 @@
 
 package com.scasp.core.repositories;
 
+import com.scasp.core.interfaces.RegistrationRepositoryInterface;
 import com.scasp.core.Registration;
 import com.scasp.core.collections.RegistrationCollection;
 import java.util.List;
 
-public class RegistrationRepository {
+public class RegistrationRepository implements RegistrationRepositoryInterface {
 
     private final RegistrationCollection registrationCollection;
 

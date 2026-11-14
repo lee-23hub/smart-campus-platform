@@ -1,11 +1,12 @@
 
 package com.scasp.core.services;
 
+import com.scasp.core.interfaces.CourseServiceInterface;
 import com.scasp.core.Course;
 import com.scasp.core.collections.CourseCollection;
 import java.util.List;
 
-public class CourseService {
+public class CourseService implements CourseServiceInterface {
 
     private final CourseCollection courseCollection;
 

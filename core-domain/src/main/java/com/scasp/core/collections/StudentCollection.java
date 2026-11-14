@@ -1,4 +1,3 @@
-
 package com.scasp.core.collections;
 
 import com.scasp.core.Student;
@@ -10,27 +9,27 @@ public class StudentCollection {
     private final List<Student> students = new ArrayList<>();
 
     // Add a student
-    public void addStudent(Student student) {
+    public synchronized void addStudent(Student student) {
         students.add(student);
     }
 
     // Remove a student
-    public void removeStudent(Student student) {
+    public synchronized void removeStudent(Student student) {
         students.remove(student);
     }
 
     // Get all students
-    public List<Student> getStudents() {
+    public synchronized List<Student> getStudents() {
         return new ArrayList<>(students);
     }
 
     // Get total number of students
-    public int getStudentCount() {
+    public synchronized int getStudentCount() {
         return students.size();
     }
 
     // Check if the collection is empty
-    public boolean isEmpty() {
+    public synchronized boolean isEmpty() {
         return students.isEmpty();
     }
 }

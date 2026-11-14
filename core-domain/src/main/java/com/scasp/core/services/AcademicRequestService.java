@@ -1,11 +1,12 @@
 
 package com.scasp.core.services;
 
+import com.scasp.core.interfaces.AcademicRequestServiceInterface;
 import com.scasp.core.AcademicRequest;
 import com.scasp.core.collections.AcademicRequestCollection;
 import java.util.List;
 
-public class AcademicRequestService {
+public class AcademicRequestService implements AcademicRequestServiceInterface {
 
     private final AcademicRequestCollection requestCollection;
 

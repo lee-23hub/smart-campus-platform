@@ -1,11 +1,12 @@
 
 package com.scasp.core.repositories;
 
+import com.scasp.core.interfaces.AcademicRequestRepositoryInterface;
 import com.scasp.core.AcademicRequest;
 import com.scasp.core.collections.AcademicRequestCollection;
 import java.util.List;
 
-public class AcademicRequestRepository {
+public class AcademicRequestRepository implements AcademicRequestRepositoryInterface {
 
     private final AcademicRequestCollection requestCollection;
 

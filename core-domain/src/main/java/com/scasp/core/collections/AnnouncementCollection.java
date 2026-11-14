@@ -1,4 +1,3 @@
-
 package com.scasp.core.collections;
 
 import com.scasp.core.Announcement;
@@ -10,27 +9,27 @@ public class AnnouncementCollection {
     private final List<Announcement> announcements = new ArrayList<>();
 
     // Add an announcement
-    public void addAnnouncement(Announcement announcement) {
+    public synchronized void addAnnouncement(Announcement announcement) {
         announcements.add(announcement);
     }
 
     // Remove an announcement
-    public void removeAnnouncement(Announcement announcement) {
+    public synchronized void removeAnnouncement(Announcement announcement) {
         announcements.remove(announcement);
     }
 
     // Get all announcements
-    public List<Announcement> getAnnouncements() {
+    public synchronized List<Announcement> getAnnouncements() {
         return new ArrayList<>(announcements);
     }
 
     // Get total number of announcements
-    public int getAnnouncementCount() {
+    public synchronized int getAnnouncementCount() {
         return announcements.size();
     }
 
     // Check if collection is empty
-    public boolean isEmpty() {
+    public synchronized boolean isEmpty() {
         return announcements.isEmpty();
     }
 }

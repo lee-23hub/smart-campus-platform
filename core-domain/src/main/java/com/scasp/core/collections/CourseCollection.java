@@ -1,4 +1,3 @@
-
 package com.scasp.core.collections;
 
 import com.scasp.core.Course;
@@ -10,27 +9,27 @@ public class CourseCollection {
     private final List<Course> courses = new ArrayList<>();
 
     // Add a course
-    public void addCourse(Course course) {
+    public synchronized void addCourse(Course course) {
         courses.add(course);
     }
 
     // Remove a course
-    public void removeCourse(Course course) {
+    public synchronized void removeCourse(Course course) {
         courses.remove(course);
     }
 
     // Get all courses
-    public List<Course> getCourses() {
+    public synchronized List<Course> getCourses() {
         return new ArrayList<>(courses);
     }
 
     // Get total number of courses
-    public int getCourseCount() {
+    public synchronized int getCourseCount() {
         return courses.size();
     }
 
     // Check if collection is empty
-    public boolean isEmpty() {
+    public synchronized boolean isEmpty() {
         return courses.isEmpty();
     }
 }
