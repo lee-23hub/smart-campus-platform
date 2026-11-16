@@ -1,0 +1,26 @@
+:root{--bg:#f6f7f9;--fg:#1b1f24;--card:#fff;--accent:#0b5cad;--ok:#1a7f37;--err:#b42318;--line:#d0d5dd}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--fg:#e6e8eb;--card:#1e2328;--accent:#6cb2ff;--line:#3a424a}}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.5 system-ui,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:var(--card);padding:8px}
+.topbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:10px 16px;background:var(--accent);color:#fff}
+.topbar a{color:#fff;margin-right:12px}.brand{font-weight:700}
+.logout{margin-left:auto;display:flex;gap:8px;align-items:center}
+main{max-width:1000px;margin:0 auto;padding:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;margin:16px 0}
+.narrow{max-width:420px;margin:40px auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}.big{font-size:2rem;margin:0}
+label{display:block;margin-top:10px;font-weight:600}
+input,select,textarea{width:100%;padding:8px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
+.inline{display:flex;flex-wrap:wrap;gap:8px;align-items:end}.inline input,.inline select{width:auto}
+button{padding:8px 14px;border:0;border-radius:6px;background:var(--accent);color:#fff;cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;background:var(--card)}
+th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left}
+.sr{position:absolute;left:-999px}
+.msg{padding:10px;border-radius:6px;margin-bottom:12px}.ok{background:#dcfce7;color:#14532d}.err{background:#fee2e2;color:#7f1d1d}
+.field-err{display:block;color:var(--err);font-size:.9rem;min-height:1.1em}
+.empty{padding:16px;border:1px dashed var(--line);border-radius:6px}
+.badge{padding:2px 8px;border-radius:999px;border:1px solid var(--line);font-size:.85rem}
+.plain{padding-left:18px}.hint{font-size:.85rem;opacity:.8}
+.foot{text-align:center;padding:16px;font-size:.85rem;opacity:.8}
